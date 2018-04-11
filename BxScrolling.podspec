@@ -22,7 +22,8 @@ Pod::Spec.new do |s|
     s.dependency 'RxCocoa'
     s.dependency 'BxUtility'
     s.dependency 'BxLayout'
+    s.dependency 'BxUI'
 
-    s.framework 'UIKit'
+    s.framework = 'UIKit'
 
 end
